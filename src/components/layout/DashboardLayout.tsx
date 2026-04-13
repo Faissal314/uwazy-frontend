@@ -47,8 +47,8 @@ function Sidebar() {
     return (
         <div className="flex flex-col w-64 h-full bg-slate-900 text-slate-300 border-r border-slate-800 transition-all">
             <div className="p-6 flex items-center gap-3">
-                <div className="flex items-center justify-center min-w-10 w-10 h-10 rounded-xl bg-blue-600 text-white shadow-lg">
-                    <BookOpen size={20} />
+                <div className="flex items-center justify-center min-w-10 w-10 h-10 rounded-xl bg-white shadow-lg overflow-hidden">
+                    <img src="/uwazylogo.jpeg" alt="Uwazy Logo" className="w-full h-full object-cover" />
                 </div>
                 <span className="text-xl font-bold tracking-tight text-white truncate">
                     Uwazy<span className="text-blue-400">Online</span>

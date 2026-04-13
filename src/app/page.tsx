@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { buttonVariants } from '@/components/ui/Button';
+import { Button, buttonVariants } from '@/components/ui/Button';
 import { BookOpen, CheckCircle2, ArrowRight, BadgeCent } from 'lucide-react';
 
 export default function LandingPage() {
@@ -8,8 +8,8 @@ export default function LandingPage() {
       <nav className="border-b border-slate-200 bg-white/80 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white shadow-md">
-              <BookOpen size={18} />
+            <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-md overflow-hidden">
+              <img src="/uwazylogo.jpeg" alt="Uwazy Logo" className="w-full h-full object-cover" />
             </div>
             <span className="text-xl font-bold tracking-tight text-slate-900">
               Uwazy<span className="text-blue-600">Online</span>
